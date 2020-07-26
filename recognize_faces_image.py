@@ -1,3 +1,7 @@
+#Usage
+#Type the following in to command line to start facial recgonition
+	# python pi_face_recognition.py --cascade haarcascade_frontalface_default.xml --encodings encodings.pickle
+
 # import the necessary packages
 import face_recognition
 import argparse
