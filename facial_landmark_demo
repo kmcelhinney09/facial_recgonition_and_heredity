@@ -1,5 +1,9 @@
 #Program used from https://www.pyimagesearch.com/2017/04/17/real-time-facial-landmark-detection-opencv-python-dlib/
 #Use this to demonstrate to students how computers create facial landmarks in order to do facial recognition.
+#Use the following commands in the command prompt in order to interact with the program.
+	# python video_facial_landmarks.py \
+		--shape-predictor shape_predictor_68_face_landmarks.dat \
+		--picamera 1
 # import the necessary packages
 from imutils.video import VideoStream
 from imutils import face_utils
