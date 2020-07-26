@@ -1,8 +1,6 @@
 # USAGE
-# When encoding on laptop, desktop, or GPU (slower, more accurate):
-# python encode_faces.py --dataset dataset --encodings encodings.pickle --detection-method cnn
-# When encoding on Raspberry Pi (faster, more accurate):
-# python encode_faces.py --dataset dataset --encodings encodings.pickle --detection-method hog
+# When encoding on Raspberry Pi (faster, more accurate)type the following in to the command prompt:
+	# python encode_faces.py --dataset dataset --encodings encodings.pickle --detection-method hog
 
 # import the necessary packages
 from imutils import paths
